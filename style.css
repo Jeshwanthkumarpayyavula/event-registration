@@ -1,0 +1,401 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+#logoimg{
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+
+.navbar{
+    background-color: rgb(247, 243, 243);
+    display: flex;
+    height: 150px;
+}
+
+button {
+	border-radius: 5px;
+	border: 1px solid #FF4B2B;
+	background-color: #FF4B2B;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+    margin-right: 100px ;
+    margin-left: -60px;
+    margin-top: 30px;
+}
+button:hover{
+    background-color: #fe5c44;
+    cursor: pointer;
+}
+
+.search-container {
+    display: inline-block;
+    width: 100%;
+    background: rgb(247, 243, 243);
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 150px
+   }
+   
+   
+   .search-container input[type=text] {
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+   }
+   
+   .search-container button {
+    width: 20%;
+    padding: 10px;
+    background: #0076d6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+   }
+   
+   .search-container button:hover {
+    background: #005da5;
+   }    
+
+a{
+    text-decoration: none;
+    color: rgb(112, 20, 20);
+    font-size: 20px;
+    
+}
+
+#section1{
+    display: flex;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#see{
+    margin-left: 50px;
+}
+
+#devices{
+    display: flex;
+    padding: 20px;
+}
+
+#laptop{
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+#intel,#laptop2,#iphone,#laptop3{
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+#section1{
+    /* margin-left: 60px; */
+    margin-top: 100px;
+}
+
+#daily{
+    margin-left: 80px;
+}
+
+#text{
+    height: 90px;
+    width: 90%;
+    background-color: #460610;
+    margin-left: 30px;
+    color: white;
+
+}
+
+#one{
+    font-size: 30px;
+    margin-left: 10px;
+    padding: 10px;
+    
+}
+
+#two{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+#read{
+    margin-left: 1170px;
+    margin-top: -60px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.ReadM {
+    display: inline-block;
+    padding: 10px 10px;
+    margin-left: -5px;
+    margin-top: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #460610;
+    border: 1px white solid;
+    transition: background-color 0.3s ease;  
+}
+.ReadM:hover {
+    background-color: #ffffff;
+    color:#460610;
+    text-decoration: none;
+    border: 1px solid #460610;
+}
+
+
+#PD{
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#img{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+#img1,#img2,#img3,#img4,#img5{
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+}
+
+
+
+
+#JW{
+    font-size: 20px;   
+    margin-left: 38px;
+    margin-top: 15px;
+}
+
+
+#B{
+    font-size: 20px;   
+    margin-left: 70px;
+    margin-top: 8px;
+}
+
+ 
+#CT{
+    font-size: 20px;   
+    margin-left: 20px;
+    margin-top: 13px;
+}
+
+
+
+#A{
+    font-size: 20px;   
+    margin-left: 8px;
+    margin-top: 22px;
+}
+
+#CA{
+    font-size: 20px;   
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+#img6{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#template{
+    border: 1px blue solid;
+    background-color: #3665f3;
+    height: 348px;
+    margin-left: 65px;
+    margin-top: 60px;
+    margin-right: 100px;
+
+    
+}
+
+.MC{
+    font-size: 36px;
+    color: white;
+    font-family: "Market Sans", Arial, sans-serif;
+    line-height: 20px;
+    letter-spacing: normal;
+    text-align: start;
+    margin-left: 25px;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+
+.TA{
+    color: white;
+    margin-left: 25px;
+    margin-top: 25.4px;
+    line-height: 2px;
+    font-size: 17px;
+    FONT-FAMILY: "Market Sans", Arial, sans-serif;
+
+}
+.shop-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 25px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: 1px white solid;
+
+    transition: background-color 0.3s ease;
+    
+}
+
+.shop-btn:hover {
+    background-color: #ffffff;
+    color: #3665f3;
+    text-decoration: none;
+}
+
+#NT{
+    margin: -156.5px 420px;
+   
+}
+
+#footer{
+    background-image: linear-gradient(to right, #373c4e, #39465b, #3a5168, #385c73, #36687e);
+    margin-top: 70px;
+    height: 500px;
+
+}
+
+a{
+    color: rgb(202, 194, 194);
+}
+
+a:hover{
+    color: rgba(202, 194, 194,0.7);
+    text-decoration: underline;
+}
+
+#flogo{
+    margin-top: 80px;
+    margin-left: 92px;
+}
+
+.BS{
+    margin-left: 85px;
+    margin-top: 10px;
+    color: rgb(202, 194, 194);
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+#QC{
+    list-style-type: none;
+    margin-left: 400px;
+    margin-top: -165px;
+}
+
+.Bla{
+    line-height: 35px;
+    color: rgb(202, 194, 194);
+}
+
+#Quicklinks{
+    font-size: 25px;
+    margin-bottom: 24px;
+    margin-left: -1px;
+    padding: 9px 0 9px 0 9px;
+    color: rgba(255, 255, 255, 0.797);
+    border-top: solid white 1px;
+    border-bottom: solid white 1px;
+    height: 40px;
+    width: 290px;
+}
+
+#AE{
+    list-style-type: none;
+    margin-left: 800px;
+    margin-top: -273px;
+}
+
+.about{
+    color: rgb(202, 194, 194);
+    line-height: 35px;
+}
+
+#ae{
+    font-size: 25px;
+    margin-bottom: 28px;
+    margin-left: -1px;
+    padding: 9px 0 9px 0 9px;
+    color: rgba(255, 255, 255, 0.797);
+    border-top: solid white 1px;
+    border-bottom: solid white 1px;
+    height: 40px;
+    width: 290px;
+}
+
+#HC{
+    margin-left: 1200px;
+    margin-top: -312px;
+    list-style-type: none;
+}
+
+#hc{
+    font-size: 25px;
+    margin-bottom: 28px;
+    margin-left: -1px;
+    padding: 9px 0 9px 0 9px;
+    color: rgba(255, 255, 255, 0.797);
+    border-top: solid white 1px;
+    border-bottom: solid white 1px;
+    height: 40px;
+    width: 290px;  
+}
+.Help{
+    line-height: 35px;
+}
+
+#SC{
+    font-size: 25px;
+    margin-bottom: 28px;
+    margin-left: -1px;
+    margin-top: 40px;
+    padding: 9px 0 9px 0 9px;
+    color: rgba(255, 255, 255, 0.797);
+    border-top: solid white 1px;
+    border-bottom: solid white 1px;
+    height: 40px;
+    width: 290px;     
+}
+
+#copyright{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 35px;
+    color: rgba(255, 255, 255, 0.797);
+}
